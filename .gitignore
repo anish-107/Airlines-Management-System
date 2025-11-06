@@ -1,3 +1,5 @@
 venv
 .vscode/
 TODO.txt
+**/*.db
+**/*.env
