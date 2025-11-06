@@ -7,11 +7,9 @@ from werkzeug.security import generate_password_hash, check_password_hash
 # Flask App Initialization
 app = Flask(__name__)
 
-# Secret key for session management and flash messages
-app.secret_key = "your_secret_key"
 
 # SQLite Database connection
-DATABASE = 'airlinez_test.db'
+DATABASE = 'sample.db'
 
 def get_db_connection():
     conn = sqlite3.connect(DATABASE)
